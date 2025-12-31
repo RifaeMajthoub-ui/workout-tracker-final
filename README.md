@@ -1,30 +1,49 @@
-\# 🏋️‍♂️ Workout Tracker - Full Stack Project
+🏋️‍♂️ Workout Tracker - Full Stack Project
+This is a personal Workout Tracker application built to help users manage their fitness journey. It allows users to create, view, and track their workout sessions with a focus on ease of use and clean data management.
 
+🔗 Project Link
+https://github.com/RifaeMajthoub-ui/workout-tracker-final
 
+🚀 Key Features
+Full Authentication: Secure user signup and login using JWT (JSON Web Tokens).
 
-This is my final project for the fitness tracking system. It uses a React frontend and a Node.js backend connected to a MySQL database.
+Workout Management: Users can add new workouts (Exercise, Load, Reps) and delete completed ones.
 
+Persistent Storage: All data is saved in a structured MySQL database.
 
+Responsive UI: Built with React for a smooth, single-page experience.
 
-\## 🔗 Project Link
+📸 Screenshots
+1. User Authentication (Signup & Login)
+2. Application Interface
+3. Database Management (MySQL Workbench Proof)
+🛠️ Tech Stack
+Frontend: React.js, CSS3
 
-\[https://github.com/RifaeMajthoub-ui/workout-tracker-final](https://github.com/RifaeMajthoub-ui/workout-tracker-final)
+Backend: Node.js, Express.js
 
+Database: MySQL
 
+Authentication: JWT (JSON Web Tokens) & Bcrypt
 
-\## 🚀 Key Features
+⚙️ Setup & Installation
+1. Database Setup
+Open your MySQL terminal or Workbench.
 
-\* \*\*Database:\*\* Uses MySQL to store workout data (Exercise, Load, Reps).
+Run the commands found in database_setup.sql to create the database and tables.
 
-\* \*\*Security:\*\* Implemented JWT for secure user login.
+2. Backend Setup
+Navigate to the backend folder: cd backend
 
-\* \*\*UI:\*\* Responsive React design with a dynamic background.
+Install dependencies: npm install
 
+Create a .env file with your PORT, MYSQL_USER, MYSQL_PASSWORD, and SECRET.
 
+Start the server: npm start
 
-\## 📁 How to Run
+3. Frontend Setup
+Navigate to the frontend folder: cd frontend
 
-1\. Run `database\_setup.sql` in MySQL.
+Install dependencies: npm install
 
-2\. Run `npm install` and `npm start` in both `/backend` and `/frontend` folders.
-
+Start the application: npm start
