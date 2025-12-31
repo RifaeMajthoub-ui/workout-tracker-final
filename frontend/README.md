@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# 🏋️‍♂️ Workout Tracker - Full Stack Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a personal Workout Tracker application built to help users manage their fitness journey. It allows users to create, view, and track their workout sessions with a focus on ease of use and clean data management.
 
-## Available Scripts
+## 🔗 Project Links
+* **GitHub Repository:** [https://github.com/RifaeMajthoub-ui/workout-tracker-final](https://github.com/RifaeMajthoub-ui/workout-tracker-final)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
+* **Full Authentication:** Secure user signup and login using JWT (JSON Web Tokens).
+* **Workout Management:** Users can add new workouts (Exercise, Load, Reps) and delete completed ones.
+* **Responsive UI:** Built with React for a smooth, single-page experience.
+* **Persistent Storage:** All data is saved in a structured MySQL database.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
+* **Frontend:** React.js, CSS3
+* **Backend:** Node.js, Express.js
+* **Database:** MySQL
+* **Authentication:** JWT (JSON Web Tokens) & Bcrypt for password hashing
+* **Version Control:** Git & GitHub
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Project Structure
+- `frontend/`: React application (User Interface)
+- `backend/`: Express server and API routes
+- `database_setup.sql`: SQL script to initialize the MySQL tables
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Setup & Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Database Setup
+1. Open your MySQL terminal or Workbench.
+2. Run the commands found in `database_setup.sql` to create the database and the necessary tables.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Backend Setup
+1. Navigate to the `backend` folder: `cd backend`
+2. Install dependencies: `npm install`
+3. Create a `.env` file with your `PORT`, `MYSQL_USER`, `MYSQL_PASSWORD`, and `SECRET`.
+4. Start the server: `npm start`
 
-### `npm run eject`
+### 3. Frontend Setup
+1. Navigate to the `frontend` folder: `cd frontend`
+2. Install dependencies: `npm install`
+3. Start the application: `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📈 Development Process (Git History)
+The project followed a structured development lifecycle:
+1. **Initial Setup:** Project architecture and dependency configuration.
+2. **Backend Development:** Building the REST API and MySQL integration.
+3. **Frontend Development:** Designing React components and connecting to the backend.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### **Developer Information**
+* **Project:** Full-Stack Workout Tracker
+* **Requirement:** University Assessment - Source Code & Version Control Proof
